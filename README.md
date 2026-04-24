@@ -1,5 +1,6 @@
 # 📊 SQL Data Analytics Portfolio
 📌 Project Overview
+
 In this project, I built a complete data analysis portfolio using SQL Server. I started by exploring the raw tables to understand the data, wrote advanced queries to analyze business performance, and built final reports to summarize customer and product insights.
 
 🛠️ Tools Used: SQL Server (T-SQL), SSMS. 
@@ -44,6 +45,7 @@ Customer Report: A script that groups customers by age and segments them into "V
 Product Report: A script that categorizes products into "High-Performers", "Mid-Range", or "Low-Performers" based on their total sales. It also calculates the average selling price, total unique customers per product, and average monthly revenue.
 
 🚀 How to Run This Project
+
 Download the Database: Get the DataWarehouseAnalytics.bak file from the repository.
 
 Restore it: Open SQL Server Management Studio (SSMS) and restore the backup file.
