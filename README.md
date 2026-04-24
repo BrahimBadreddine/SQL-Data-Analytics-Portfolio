@@ -6,6 +6,7 @@ In this project, I built a complete data analysis portfolio using SQL Server. I 
 
 📂 Project Structure & Code
 1. 🔍 Exploratory Data Analysis (EDA)
+
 In this folder, I wrote scripts to understand what information is inside the database:
 
 01_Database_Exploration: Checking all the tables and how they connect.
