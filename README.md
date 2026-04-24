@@ -22,6 +22,7 @@ In this folder, I wrote scripts to understand what information is inside the dat
 06_Ranking_Analysis: Finding out what the top items are.
 
 2. 📈 Advanced Analytics
+
 In this folder, I used more complex SQL to find business trends:
 
 07_change_over_time_analysis: Seeing how sales grow or drop over the months.
@@ -35,6 +36,7 @@ In this folder, I used more complex SQL to find business trends:
 11_data_segmentation: Grouping data into useful categories.
 
 3. 🏆 Final Reports
+
 This folder contains the final views I built to summarize the business:
 
 Customer Report: A script that groups customers by age and segments them into "VIP", "Regular", or "New" based on how much they spend and how long they have been buying.
