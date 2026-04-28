@@ -14,7 +14,8 @@ The goal is to demonstrate how raw data can be transformed into meaningful insig
 
 ## 🛠️ Tech Stack
 - SQL Server  
-- T-SQL  
+- T-SQL
+- Star schema
 - SQL Server Management Studio (SSMS)  
 
 ---
