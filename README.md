@@ -1,53 +1,95 @@
 # 📊 SQL Data Analytics Portfolio
-📌 Project Overview
 
-In this project, I built a complete data analysis portfolio using SQL Server. I started by exploring the raw tables to understand the data, wrote advanced queries to analyze business performance, and built final reports to summarize customer and product insights.
+## 📌 Project Overview
+This project showcases a complete data analysis workflow using SQL Server, focusing on exploring, analyzing, and reporting business data.
 
-🛠️ Tools Used: SQL Server (T-SQL), SSMS. 
+The process includes:
+- Exploratory Data Analysis (EDA)
+- Advanced analytical queries
+- Building final business reports
 
-📂 Project Structure & Code
-1. 🔍 Exploratory Data Analysis (EDA)
+The goal is to demonstrate how raw data can be transformed into meaningful insights using SQL.
 
-In this folder, I wrote scripts to understand what information is inside the database:
+---
 
-01_Database_Exploration: Checking all the tables and how they connect.
+## 🛠️ Tech Stack
+- SQL Server  
+- T-SQL  
+- SQL Server Management Studio (SSMS)  
 
-02_Dimensions_Exploration: Looking at the categories (like customers and products).
+---
 
-03_Date_Range_Exploration: Finding the start and end dates of the sales data.
+## 📂 Project Structure
 
-04_Measures_Exploration: A quick look at the main numbers (Key Metrics).
+### 🔍 Exploratory Data Analysis (EDA)
+Initial exploration to understand the dataset structure and key metrics:
 
-05_Magnitude_Analysis: Checking the size and totals of the data.
+- **01_Database_Exploration** – Overview of tables and relationships  
+- **02_Dimensions_Exploration** – Analysis of categorical data (customers, products)  
+- **03_Date_Range_Exploration** – Identifying time boundaries of the dataset  
+- **04_Measures_Exploration** – Overview of key business metrics  
+- **05_Magnitude_Analysis** – Evaluating data scale and totals  
+- **06_Ranking_Analysis** – Identifying top-performing entities  
 
-06_Ranking_Analysis: Finding out what the top items are.
+---
 
-2. 📈 Advanced Analytics
+### 📈 Advanced Analytics
+Deeper analysis using SQL techniques to uncover trends and patterns:
 
-In this folder, I used more complex SQL to find business trends:
+- **07_Change_Over_Time_Analysis** – Sales trends over time  
+- **08_Cumulative_Analysis** – Running totals and growth patterns  
+- **09_Performance_Analysis** – Performance comparison across dimensions  
+- **10_Part_To_Whole_Analysis** – Contribution of categories to total sales  
+- **11_Data_Segmentation** – Grouping data into meaningful segments  
 
-07_change_over_time_analysis: Seeing how sales grow or drop over the months.
+---
 
-08_cumulative_analysis: Calculating "running totals" as time goes on.
+### 🏆 Final Reports
+Business-focused reports built using SQL:
 
-09_performance_analysis: Checking how well different parts of the business are doing.
+- **Customer Report**
+  - Segments customers into:
+    - VIP  
+    - Regular  
+    - New  
+  - Based on spending behavior and customer lifespan  
 
-10_part_to_whole_analysis: Seeing how much one category contributes to the total sales.
+- **Product Report**
+  - Classifies products into:
+    - High Performers  
+    - Mid Range  
+    - Low Performers  
+  - Includes:
+    - Total sales  
+    - Average selling price  
+    - Unique customers per product  
+    - Average monthly revenue  
 
-11_data_segmentation: Grouping data into useful categories.
+---
 
-3. 🏆 Final Reports
+## 🚀 How to Run This Project
 
-This folder contains the final views I built to summarize the business:
+1. **Download the database**  
+   - Retrieve the `DataWarehouseAnalytics.bak` file from the repository  
 
-Customer Report: A script that groups customers by age and segments them into "VIP", "Regular", or "New" based on how much they spend and how long they have been buying.
+2. **Restore the database**  
+   - Open SQL Server Management Studio (SSMS)  
+   - Restore the `.bak` file  
 
-Product Report: A script that categorizes products into "High-Performers", "Mid-Range", or "Low-Performers" based on their total sales. It also calculates the average selling price, total unique customers per product, and average monthly revenue.
+3. **Run the SQL scripts**  
+   - Execute scripts in order (starting from `01_...`)  
+   - Follow the progression from exploration → analysis → reporting  
 
-🚀 How to Run This Project
+---
 
-Download the Database: Get the DataWarehouseAnalytics.bak file from the repository.
+## 📊 Outcome
+This project demonstrates:
+- SQL-based data exploration and analysis  
+- Business-oriented data modeling  
+- Use of advanced SQL techniques for insights generation  
+- Building structured reports directly from raw data  
 
-Restore it: Open SQL Server Management Studio (SSMS) and restore the backup file.
+---
 
-Run the Scripts: Open the files in order (starting from 01) to see how I analyzed the data!
+## 📌 Author
+**BRAHIM BADREDDINE**
