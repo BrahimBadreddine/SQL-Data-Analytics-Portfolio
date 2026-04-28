@@ -70,16 +70,17 @@ Business-focused reports built using SQL:
 
 ## 🚀 How to Run This Project
 
-1. **Download the database**  
-   - Retrieve the `DataWarehouseAnalytics.bak` file from the repository  
+1. **Download the data**
+   - Open the `/data` folder in this repository  
+   - Download the CSV files  
 
-2. **Restore the database**  
-   - Open SQL Server Management Studio (SSMS)  
-   - Restore the `.bak` file  
+2. **Import into your SQL environment**
+   - Use SQL Server Management Studio (SSMS) or any SQL tool  
+   - Import the CSV files as tables  
 
-3. **Run the SQL scripts**  
-   - Execute scripts in order (starting from `01_...`)  
-   - Follow the progression from exploration → analysis → reporting  
+3. **Run the SQL scripts**
+   - Execute the scripts in order (starting from `01_...`)  
+   - Follow the workflow from exploration → analysis → reporting  
 
 ---
 
@@ -89,7 +90,6 @@ This project demonstrates:
 - Business-oriented data modeling  
 - Use of advanced SQL techniques for insights generation  
 - Building structured reports directly from raw data  
-
 ---
 
 ## 📌 Author
