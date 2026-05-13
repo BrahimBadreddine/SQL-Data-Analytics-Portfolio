@@ -1,5 +1,13 @@
 # 📊 SQL Data Analytics Portfolio
 
+🌐 Language / Langue  
+🇬🇧 English | 🇫🇷 Français
+
+---
+
+<details>
+<summary>🇬🇧 English Version</summary>
+
 ## 📌 Project Overview
 This project showcases a complete data analysis workflow using SQL Server, focusing on exploring, analyzing, and reporting business data.
 
@@ -14,8 +22,8 @@ The goal is to demonstrate how raw data can be transformed into meaningful insig
 
 ## 🛠️ Tech Stack
 - SQL Server  
-- T-SQL
-- Star schema
+- T-SQL  
+- Star schema  
 - SQL Server Management Studio (SSMS)  
 
 ---
@@ -48,23 +56,23 @@ Deeper analysis using SQL techniques to uncover trends and patterns:
 ### 🏆 Final Reports
 Business-focused reports built using SQL:
 
-- **Customer Report**
-  - Segments customers into:
-    - VIP  
-    - Regular  
-    - New  
-  - Based on spending behavior and customer lifespan  
+**Customer Report**
+- Segments customers into:
+  - VIP  
+  - Regular  
+  - New  
+- Based on spending behavior and customer lifespan  
 
-- **Product Report**
-  - Classifies products into:
-    - High Performers  
-    - Mid Range  
-    - Low Performers  
-  - Includes:
-    - Total sales  
-    - Average selling price  
-    - Unique customers per product  
-    - Average monthly revenue  
+**Product Report**
+- Classifies products into:
+  - High Performers  
+  - Mid Range  
+  - Low Performers  
+- Includes:
+  - Total sales  
+  - Average selling price  
+  - Unique customers per product  
+  - Average monthly revenue  
 
 ---
 
@@ -74,13 +82,13 @@ Business-focused reports built using SQL:
    - Open the `/data` folder in this repository  
    - Download the CSV files  
 
-2. **Import into your SQL environment**
+2. **Import into SQL Server**
    - Use SQL Server Management Studio (SSMS) or any SQL tool  
-   - Import the CSV files as tables  
+   - Import CSV files as tables  
 
-3. **Run the SQL scripts**
-   - Execute the scripts in order (starting from `01_...`)  
-   - Follow the workflow from exploration → analysis → reporting  
+3. **Run SQL scripts**
+   - Execute scripts in order (`01_...` → `11_...`)  
+   - Follow workflow: EDA → Analysis → Reporting  
 
 ---
 
@@ -88,8 +96,109 @@ Business-focused reports built using SQL:
 This project demonstrates:
 - SQL-based data exploration and analysis  
 - Business-oriented data modeling  
-- Use of advanced SQL techniques for insights generation  
-- Building structured reports directly from raw data  
+- Advanced SQL techniques for insights generation  
+- Structured reporting from raw data  
+
+</details>
+
+---
+
+<details>
+<summary>🇫🇷 Version en français</summary>
+
+## 📌 Aperçu du projet
+Ce projet présente un workflow complet d’analyse de données avec SQL Server, centré sur l’exploration, l’analyse et la création de rapports business.
+
+Le processus comprend :
+- Analyse exploratoire des données (EDA)
+- Requêtes analytiques avancées
+- Création de rapports finaux
+
+L’objectif est de montrer comment transformer des données brutes en insights exploitables grâce à SQL.
+
+---
+
+## 🛠️ Technologies utilisées
+- SQL Server  
+- T-SQL  
+- Schéma en étoile  
+- SQL Server Management Studio (SSMS)  
+
+---
+
+## 📂 Structure du projet
+
+### 🔍 Analyse exploratoire des données (EDA)
+Exploration initiale pour comprendre la structure du dataset :
+
+- **01_Database_Exploration** – Vue d’ensemble des tables et relations  
+- **02_Dimensions_Exploration** – Analyse des données catégorielles (clients, produits)  
+- **03_Date_Range_Exploration** – Détection de la période du dataset  
+- **04_Measures_Exploration** – Analyse des indicateurs clés  
+- **05_Magnitude_Analysis** – Analyse des volumes de données  
+- **06_Ranking_Analysis** – Identification des meilleures performances  
+
+---
+
+### 📈 Analyse avancée
+Analyse approfondie pour détecter tendances et patterns :
+
+- **07_Change_Over_Time_Analysis** – Évolution des ventes dans le temps  
+- **08_Cumulative_Analysis** – Totaux cumulés et croissance  
+- **09_Performance_Analysis** – Comparaison des performances  
+- **10_Part_To_Whole_Analysis** – Contribution au total des ventes  
+- **11_Data_Segmentation** – Segmentation des données  
+
+---
+
+### 🏆 Rapports finaux
+Rapports orientés business :
+
+**Rapport Clients**
+- Segmentation des clients :
+  - VIP  
+  - Réguliers  
+  - Nouveaux  
+- Basé sur le comportement d’achat et la durée de vie client  
+
+**Rapport Produits**
+- Classification des produits :
+  - Haute performance  
+  - Moyenne performance  
+  - Faible performance  
+- Inclut :
+  - Ventes totales  
+  - Prix moyen  
+  - Nombre de clients uniques  
+  - Revenu mensuel moyen  
+
+---
+
+## 🚀 Comment exécuter le projet
+
+1. **Télécharger les données**
+   - Ouvrir le dossier `/data`  
+   - Télécharger les fichiers CSV  
+
+2. **Importer dans SQL Server**
+   - Utiliser SSMS ou un autre outil SQL  
+   - Importer les fichiers CSV comme tables  
+
+3. **Exécuter les scripts SQL**
+   - Lancer les scripts dans l’ordre (`01_...` → `11_...`)  
+   - Suivre le workflow : EDA → Analyse → Reporting  
+
+---
+
+## 📊 Résultat
+Ce projet démontre :
+- Exploration et analyse de données avec SQL  
+- Modélisation orientée business  
+- Techniques SQL avancées  
+- Création de rapports structurés à partir de données brutes  
+
+</details>
+
 ---
 
 ## 📌 Author
